@@ -5,12 +5,14 @@
 import main;
 import datetime;
 
-year = 2020
-month = 12
-day = 1
+year = 2021
+month = 2
+day = 2
 
 def test_code():
-    assert 0 > 1, "error"
+    assert main.countA("rat") == 1, "countA('rat') == 1 failed"
+    assert main.countA("oooooooo") == 0, "countA('oooooooo') == 0 failed"
+    assert main.countA("aaaaaaaaaa") == 10, "countA('aaaaaaaaaa') == 10 failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"

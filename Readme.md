@@ -1,16 +1,33 @@
-# **Assignment Title**  
+# **CountA**  
 
 ## **Assignment Description**  
-
+Create a function called countA() that returns the number of "a"s in a given word w.
 
 ## **Examples**  
->
+>countA("cat")  
+1  
+
+>countA("dog")  
+0  
+
+>countA("armadillo")  
+2  
+
+>countA("astronaut")  
+2  
 
 ## **Limitations**  
+1 function  
+1 for loop  
+1 if statement  
 
 ## **Hints**  
+You can put if statements inside of for loops.  
+w[0] returns the first letter of a word.
+
 
 ## **Concepts**  
+Unit 1, Unit 2, for loops, lists  
 
 ---
 
